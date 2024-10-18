@@ -10,7 +10,7 @@ namespace Tyuiu.BerestenDS.Sprint3.Task0.V18.Test
             DataService ds = new DataService();
             int value = 1;
             int startValue = 1;
-            int stopValue = 5;
+            int stopValue = 6;
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
