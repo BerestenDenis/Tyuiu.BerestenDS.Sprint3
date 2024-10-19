@@ -14,7 +14,7 @@ namespace Tyuiu.BerestenDS.Sprint3.Task0.V18.Test
 
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            double wait = 100;
+            double wait = 914700.94;
 
             Assert.AreEqual(wait, res);
             
