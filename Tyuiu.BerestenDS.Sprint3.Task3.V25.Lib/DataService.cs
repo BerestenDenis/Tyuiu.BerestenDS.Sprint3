@@ -6,11 +6,24 @@ namespace Tyuiu.BerestenDS.Sprint3.Task3.V25.Lib
         public int GetMinCharCount(string value, char item)
         {
             int count = 0;
-            foreach (char chr in value)
+            bool previousLetter = false;
+            foreach (char c in value)
             {
-                if (chr == item)
+                if (c == item)
                 {
-                    count++;
+                    if (previousLetter)
+                    {
+                        count++;
+                        previousLetter = false;
+                    }
+                    else
+                    {
+                        previousLetter = true;
+                    }
+                }
+                else
+                {
+                    previousLetter = false;
                 }
             }
             return count;
