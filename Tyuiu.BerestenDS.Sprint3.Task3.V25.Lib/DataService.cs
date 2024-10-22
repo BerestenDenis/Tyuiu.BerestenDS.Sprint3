@@ -26,7 +26,7 @@ namespace Tyuiu.BerestenDS.Sprint3.Task3.V25.Lib
                     previousLetter = false;
                 }
             }
-            return count;
+            return count -1;
         }
     }
 }
