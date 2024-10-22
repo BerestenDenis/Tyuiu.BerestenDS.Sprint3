@@ -13,11 +13,8 @@ namespace Tyuiu.BerestenDS.Sprint3.Task4.V1.Lib
                 {
                     break;
                 }
-                else
-                {
-                    res = res + Math.Sin(x) / x;
+                res = res + (Math.Sin(x) / x);
 
-                }
 
             }
             return Math.Round(res, 3);
