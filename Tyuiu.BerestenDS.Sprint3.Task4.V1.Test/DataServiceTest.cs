@@ -12,7 +12,7 @@ namespace Tyuiu.BerestenDS.Sprint3.Task4.V1.Test
             int stopValue = 5;
 
             double res = ds.Calculate(startValue, stopValue);
-            double wait =;
+            double wait = 0.962;
             Assert.AreEqual(wait, res);
         }
     }
