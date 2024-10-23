@@ -20,6 +20,6 @@ class Program
         int stopValue1 = 3;
         int startValue2 = 1;
         int stopValue2 = 12;
-        Console.WriteLine(ds.GetSumSumSeries(x, startValue1, stopValue1, startValue2,stopValue2));
+        Console.WriteLine(ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1,stopValue2));
     }
 }

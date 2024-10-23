@@ -11,7 +11,7 @@ namespace Tyuiu.BerestenDS.Sprint3.Task5.V13.Lib
             {
                 for (j = startValue2; j <= stopValue2; j++)
                 {
-                    sum = sum + (Math.Cos(x) + j / 2);
+                    sum = sum + (Math.Cos(x) + (j / 2));
                 }
             }
             return Math.Round(sum,3);
